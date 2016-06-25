@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Scribble",
+  "description": "Write down anything!",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "scribble.png",
+    "default_title": "Scribble",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
